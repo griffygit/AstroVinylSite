@@ -1,4 +1,4 @@
-# AstroVinyl Marketplace
-Website for a fictional vinyl market ran by Zeke (also fictional).
+# AstroVinyl Marketplace (GitHub Upload)
+Website for a fictional vinyl market.
 <br><i>Final project for CIS228 Web Site Administration.
 <br>Caleb Herrera 2024</i>
