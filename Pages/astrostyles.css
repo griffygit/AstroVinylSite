@@ -1,14 +1,64 @@
 nav {
-    background-color: #9590A8;
+    min-height: 75px;
+    font-size: 60px;
 }
-nav a {
+.navcontainer {
+    background-image: URL("/Content/stockshot.jpg");
+    max-width: 1200px;
+    margin: 10px auto;
+    padding: 25px 30px;
+    border-radius: 10px;
+}
+.navcontainer header {
+    color: #403E65;
+    font-size: 25px;
+    font-weight: bold;
+}
+.navcontainer a {
+    text-decoration: none;
+    color: #EEF2E3;
+    text-shadow: 
+    -2px -2px 0 #403E65,  
+    2px -2px 0 #403E65,
+    -2px  2px 0 #403E65,
+    2px  2px 0 #403E65;
+    
+}
+.navcontainer a:visited {
     text-decoration: none;
 }
-nav a :visited {
-    text-decoration: none;
+.navcontainer a:hover {
+    color: #403E65;
+    text-shadow: 
+    -2px -2px 0 #EEF2E3,  
+    2px -2px 0 #EEF2E3,
+    -2px  2px 0 #EEF2E3,
+    2px  2px 0 #EEF2E3;
 }
 body {
     font-family: Helvetica, sans-serif;
+    text-shadow: 0px 0px 5px #22203b;
     background-color: #403E65;
     color: #EEF2E3;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.textbox {
+    margin: 20px;
+    padding: 15px;
+    font-size: 20px;
+}
+.textbox header {
+    font-size: 30px;
+    font-weight: bold;
+}
+footer {
+    background-color: #22203b;
+    min-height: 40px;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 10px 25px;
+    display:flex;
+    justify-content: center;
+    border-radius: 10px;
 }
