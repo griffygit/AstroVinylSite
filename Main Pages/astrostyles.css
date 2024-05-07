@@ -57,6 +57,8 @@ body {
     display: flex;
     margin-bottom: 50px;
     align-items: center;
+    overflow-x: auto;
+    scrollbar-color: #22203b transparent;
 }
 .image {
     flex: 1;
@@ -103,7 +105,7 @@ footer {
 }
 .staff-member {
     width: 300px;
-    background-color: #fff;
+    background-color: #22203b;
     margin: 20px;
     padding: 20px;
     border-radius: 5px;
@@ -123,4 +125,134 @@ footer {
 
 .staff-member p {
     margin-bottom: 10px;
+}
+.product-list {
+    display: flex;
+}
+
+.product {
+    flex: 0 0 auto;
+    width: 200px;
+    background-color: #2a2947;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px #403E65;
+}
+
+.product img {
+    width: 100%;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.product h2 {
+    margin-top: 0;
+    font-size: 18px;
+}
+
+.product p {
+    margin-bottom: 10px;
+}
+
+.product a {
+    text-decoration: none;
+    color: white;
+}
+
+.product a:visited {
+    text-decoration: none;
+}
+
+.product a:hover {
+    color: #9592cc;
+}
+
+.product button {
+    padding: 10px 20px;
+    background-color: #403E65;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.product button:hover {
+    background-color: #9592cc;
+}
+
+.product-details {
+    background-color: #403E65;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.product-details img {
+    width: 100%;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.product-details h2 {
+    margin-top: 0;
+    font-size: 24px;
+}
+
+.product-details p {
+    margin-bottom: 10px;
+}
+
+.product-details button {
+    padding: 10px 20px;
+    background-color: #222136;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.product-details button:hover {
+    background-color: #2a2947;
+}
+
+form {
+    background-color: #222136;
+    padding: 20px;
+    border-radius: 5px 0 0 5px;
+    height: 320px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 95%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #d3d3df;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #9592cc;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #2a2947;
+}
+
+.formcontainer {
+    width: 600px;
+    margin: 0 auto;
 }
