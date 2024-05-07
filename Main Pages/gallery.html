@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head> 
+        <meta charset="UTF-8">
+        <title>AstroVinyl Gallery</title>
+        <link rel="stylesheet" href="astrostyles.css">
+    </head>
+
+    <body>
+
+        <div class="navcontainer">
+            <header>AstroVinyl</header>
+            <nav>
+                <a href="index.html" 
+                style="color: #403E65; 
+                text-shadow: -2px -2px 0 #EEF2E3,  
+                2px -2px 0 #EEF2E3,
+                -2px  2px 0 #EEF2E3,
+                2px  2px 0 #EEF2E3;">Home</a>
+                <a href="shop.html">Shop</a>
+                <a href="events.html">Events</a>
+                <a href="staff.html">Staff</a>
+                <a href="contact.html">Contact</a>
+            </nav>
+        </div>
+        
+        <header>
+            <h1>Photo Gallery</h1>
+            <nav class="gallery-nav">
+                <ul>
+                    <li><a href="#">Dropdown for Photos ↓ </a>
+                        <ul>
+                            <li><a href="#" onclick="loadContent('mainroom.html')">Main Room</a></li>
+                            <li><a href="#" onclick="loadContent('inventory.html')">Inventory</a></li>
+                            <li><a href="#" onclick="loadContent('lounge.html')">Lounge</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        
+        <div class="container" id="content">
+            
+        </div>
+
+        <footer>
+            <p><i>Copyright &#169; 2024 Caleb Herrera - <a href="mailto:caleo010@gmail.com" style="font-weight: bold; text-decoration: underline; color: #EEF2E3;">Email</a> 
+                - <a href="/Documentation/final.html" style="font-weight: bold; text-decoration: underline; color: #EEF2E3;">Documentation Page</a></i></p>
+        </footer>
+
+        <script src="galleryscript.js"></script>
+
+    </body>
+
+</html>
