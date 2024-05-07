@@ -47,10 +47,21 @@ body {
     margin: 20px;
     padding: 15px;
     font-size: 20px;
+    flex: 1;
 }
 .textbox header {
     font-size: 30px;
     font-weight: bold;
+}
+.container {
+    display: flex;
+    margin-bottom: 50px;
+    align-items: center;
+}
+.image {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
 }
 footer {
     background-color: #22203b;
@@ -61,4 +72,55 @@ footer {
     display:flex;
     justify-content: center;
     border-radius: 10px;
+    margin-bottom: 20px;
+}
+.newsletter {
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    max-width: 300px;
+}
+
+.newsletter input {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px 0 0 5px;
+}
+
+.newsletter button {
+    padding: 10px 20px;
+    background-color: #2a2947;
+    color: #fff;
+    border: none;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.newsletter button:hover {
+    background-color: #22203b;
+}
+.staff-member {
+    width: 300px;
+    background-color: #fff;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.staff-member img {
+    width: 100%;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.staff-member h2 {
+    margin-top: 0;
+    font-size: 24px;
+}
+
+.staff-member p {
+    margin-bottom: 10px;
 }
